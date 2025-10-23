@@ -39,17 +39,18 @@ const Hero = () => {
       {/* Image Section */}
       <section className="flex justify-center md:justify-end w-full md:w-1/2">
         {/* Desktop Illustration (visible only on md and up) */}
-<img
-  className="hidden md:block w-64 sm:w-80 md:w-96 object-contain"
-  src={Illu}
-  alt="Hero Illustration"
-/>
+        <img
+          className="hidden md:block w-64 sm:w-80 md:w-96 object-contain"
+          src={Illu}
+          alt="Hero Illustration"
+        />
         {/* Mobile Illustration (visible only on small screens) */}
         <img
-          src={phone} // Replace with your actual mobile illustration path
+          src={phone}
           alt="Mobile Hero Illustration"
-          className="block md:hidden w-64 object-contain"
+          className="block md:hidden w-64 object-contain mt-4"
         />
+
       </section>
 
       {/* Text Section */}
