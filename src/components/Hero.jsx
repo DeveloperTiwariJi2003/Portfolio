@@ -34,8 +34,7 @@ const Hero = () => {
   return (
     <section
   id="home"
-  className="min-h-[60vh] flex flex-col md:flex-row items-center justify-between px-6 md:px-12 md:pt-24 gap-8 md:min-h-[20vh]"
->
+  className="min-h-[40vh] mb-10 md:min-h-[40vh] flex flex-col md:flex-row items-center justify-between px-6 md:px-12 pt-12 md:pt-24 gap-8">
 
       {/* Image Section */}
       <section className="flex-shrink-0 flex justify-center md:justify-end w-full md:w-1/2">

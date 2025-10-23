@@ -10,7 +10,7 @@ const App = () => {
 
     <div className="">
       <Navbar />
-      <div className=""><Hero />
+      <div className="flex-col justify-center m-10"><Hero />
       <About />
       <Projects />
       <Contact /></div>
