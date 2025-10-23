@@ -45,11 +45,11 @@ const Hero = () => {
       alt="Hero Illustration"
     />
     {/* Mobile Illustration */}
-    <img
+    {/* <img
       src={phone}
       alt="Mobile Hero Illustration"
       className="block md:hidden w-64 object-contain mt-2"
-    />
+    /> */}
   </section>
 
   {/* Text Section */}
