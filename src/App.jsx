@@ -10,7 +10,7 @@ const App = () => {
 
     <div className="">
       <Navbar />
-      <div className="ml-8"><Hero />
+      <div className=""><Hero />
       <About />
       <Projects />
       <Contact /></div>

@@ -34,7 +34,7 @@ const Hero = () => {
   return (
     <section
   id="home"
-  className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-12 pt-12 md:pt-24 gap-8"
+  className="min-h-[60vh] flex flex-col md:flex-row items-center justify-between px-6 md:px-12 md:pt-24 gap-8 md:min-h-[60vh]"
 >
 
       {/* Image Section */}
