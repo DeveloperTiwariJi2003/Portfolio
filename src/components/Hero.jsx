@@ -33,9 +33,10 @@ import phone from "../assets/phone.png";
 const Hero = () => {
   return (
     <section
-      id="home"
-      className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-12 pt-24 gap-8"
-    >
+  id="home"
+  className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-12 pt-24 gap-8"
+>
+
       {/* Image Section */}
       <section className="flex justify-center md:justify-end w-full md:w-1/2">
         {/* Desktop Illustration (visible only on md and up) */}
@@ -46,10 +47,11 @@ const Hero = () => {
         />
         {/* Mobile Illustration (visible only on small screens) */}
         <img
-          src={phone}
-          alt="Mobile Hero Illustration"
-          className="block md:hidden w-64 object-contain mt-4"
-        />
+  src={phone}
+  alt="Mobile Hero Illustration"
+  className="block md:hidden w-64 object-contain mt-2"
+/>
+
 
       </section>
 
