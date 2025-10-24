@@ -7,13 +7,15 @@ import Contact from "./components/Contact";
 
 const App = () => {
   return (
-
-    <div className="">
+    
+    <div className="border-red-400 flex flex-col justify-center">
       <Navbar />
-      <div className="flex-col justify-center m-10"><Hero />
+      <div className="flex flex-col items-center justify-center min-h-screen" >
+        <Hero />
       <About />
       <Projects />
-      <Contact /></div>
+      <Contact />
+      </div>
     </div>
   );
 };

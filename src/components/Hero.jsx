@@ -1,53 +1,21 @@
-// import React from "react";
-// import Illu from '../assets/illu.png';
-// const Hero = () => {
-//   return (
-// <section id="home" className=" border-2 min-h-screen flex justify-center items-center px-4 pt-24">
-//     <section className="text-right">
-//         <img className="h-96 mt-8 w-1vw" src={Illu} alt="Hero Illustration" srcSet="" />
-//     </section>
-//     <section>
-//         <h1 className="text-4xl md:text-5xl font-bold mb-3">
-//     Hi, I'm <span className="text-teal-400">Gourav Tiwari</span>
-//   </h1>
-//   <p className="text-gray-300 text-lg mb-6">
-//     Full Stack Developer | React | CPP | MERN Stack
-//   </p>
-//   <a
-//     href="#projects"
-//     className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-md font-medium transition"
-//   >
-//     View My Work
-//   </a>
-//     </section>
-// </section>
-//   );
-// };
-
-// export default Hero;
-
-//new code
 import React from "react";
 import Illu from "../assets/illu.png";
-
+import phone from "../assets/phone.png";
 const Hero = () => {
   return (
-    <section
-  id="home"
-  className="min-h-[40vh] mb-10 md:min-h-[40vh] flex flex-col md:flex-row items-center justify-between px-6 md:px-12 pt-12 md:pt-24 gap-8">
-
+      <section id="home" className="border-8 flex flex-row mt-10 h-full">
+        <div className="w-full max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-10 flex flex-col md:flex-row items-center justify-between gap-8">
       {/* Image Section */}
-      <section className="flex-shrink-0 flex justify-center md:justify-end w-full md:w-1/2">
-        {/* Desktop Illustration (hidden on mobile) */}
-        <img
-          className="hidden md:block w-64 sm:w-80 md:w-96 object-contain"
-          src={Illu}
-          alt="Hero Illustration"
-        />
-      </section>
+      {/* <section className="border border-red-500 flex items-center justify-center max-h-96">
+        <img className=" max-h-96 border border-red-500" src={Illu} alt="Hero Illustration"/>
+      </section> */}
+      <div className="flex justify-center md:justify-end w-full md:w-1/2">
+  <img className="hidden md:block max-h-96 object-contain" src={Illu} />
+</div>
+
 
       {/* Text Section */}
-      <section className="flex flex-col items-center md:items-start text-center md:text-left max-w-xl w-full">
+      <div className="text-center md:text-left w-full max-w-xl flex flex-col items-center md:items-start justify-center">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
           Hi, I'm <span className="text-teal-400">Gourav Tiwari</span>
         </h1>
@@ -60,7 +28,9 @@ const Hero = () => {
         >
           View My Work
         </a>
-      </section>
+      </div>
+
+          </div>
     </section>
   );
 };
