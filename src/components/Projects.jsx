@@ -5,6 +5,7 @@ import Calc from '../assets/Calc.png'
 import illu from '../assets/illu.png'
 import coderoom from '../assets/image.png'
 import portfolio from '../assets/portfolio.png'
+import drive from '../assets/drive.png'
 const projects = [
   {title: "Code-Room",
     description: "Built a real-time collaborative code editor supporting multiple users with low-latency synchronization using WebSockets",
@@ -14,6 +15,18 @@ const projects = [
     description: "Personal portfolio using React.js",
     image:portfolio,
     ref: "https://portfolio-sigma-tan-g0rgp0z2uf.vercel.app"},
+    {
+    title: "Personal Drive",
+    description: " UNDER DEVELOPMENT A full-stack file management platform inspired by personal cloud storage systems, built to allow users to securely upload, organize, and manage their own files. The project focuses on backend architecture, authentication flow, and user-specific file ownership.",
+    image: drive,
+    ref: ""
+  },
+  {
+    title: "E-commerce Site",
+    description: "An online store built with MERN stack (under development).",
+    image: ecom,
+    ref: "https://github.com/DeveloperTiwariJi2003/Netflix-Clone"
+  },
   {
     title: "Calculator App",
     description: "A simple calculator built using React.",
@@ -26,12 +39,8 @@ const projects = [
     image: Netflix,
     ref: "https://github.com/DeveloperTiwariJi2003/Netflix-Clone"
   },
-  {
-    title: "E-commerce Site",
-    description: "An online store built with MERN stack (under development).",
-    image: ecom,
-    ref: "https://github.com/DeveloperTiwariJi2003/Netflix-Clone"
-  },
+  
+  
 ];
 
 const Projects = () => {
