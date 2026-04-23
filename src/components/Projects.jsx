@@ -3,7 +3,17 @@ import Netflix from '../assets/Netflix.png'
 import ecom from '../assets/E-Commerce.png'
 import Calc from '../assets/Calc.png'
 import illu from '../assets/illu.png'
+import coderoom from '../assets/image.png'
+import portfolio from '../assets/portfolio.png'
 const projects = [
+  {title: "Code-Room",
+    description: "Built a real-time collaborative code editor supporting multiple users with low-latency synchronization using WebSockets",
+    image:coderoom,
+    ref: "https://code-review-app-k8ys.onrender.com"},
+  {title: "Portfolio",
+    description: "Personal portfolio using React.js",
+    image:portfolio,
+    ref: "https://portfolio-sigma-tan-g0rgp0z2uf.vercel.app"},
   {
     title: "Calculator App",
     description: "A simple calculator built using React.",
