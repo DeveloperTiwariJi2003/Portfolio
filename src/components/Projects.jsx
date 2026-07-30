@@ -17,9 +17,14 @@ const projects = [
     ref: "https://portfolio-sigma-tan-g0rgp0z2uf.vercel.app"},
     {
     title: "Personal Drive",
-    description: " UNDER DEVELOPMENT A full-stack file management platform inspired by personal cloud storage systems, built to allow users to securely upload, organize, and manage their own files. The project focuses on backend architecture, authentication flow, and user-specific file ownership.",
+    description: "•	Developed a secure cloud storage application with user authentication using JWT and bcrypt.
+•	Implemented single and multiple file uploads, downloads, previews, and bulk deletion with user-specific access control.
+•	Stored uploaded files on a self-hosted local storage system while maintaining file metadata in MongoDB Atlas.
+•	Built a RESTful backend using Express.js with a modular architecture (Routes, Controllers, Middlewares).
+•	Integrated Cloudflare Tunnel with a custom domain to securely expose the local server over the internet without traditional port forwarding.
+",
     image: drive,
-    ref: ""
+    ref: "https://personal-drive-n1o6.onrender.com/login.html"
   },
   {
     title: "E-commerce Site",
