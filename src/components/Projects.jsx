@@ -18,7 +18,7 @@ const projects = [
     {
     title: "Personal Drive",
     description: "Developed a secure cloud storage application with user authentication using JWT and bcrypt,multiple file uploads, downloads, previews, bulk deletion with user-specific access control,a self-hosted local storage system while maintaining file metadata in MongoDB Atlas, Integrated Cloudflare Tunnel with a custom domain to securely expose the local server over the internet without traditional port forwarding.",
-    image: Screenshot 2026-07-30 231948.png,
+    image: drive,
     ref: "https://personal-drive-n1o6.onrender.com/login.html"
   },
   {
